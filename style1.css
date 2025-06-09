@@ -1,0 +1,82 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #000000e5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2f2f2f;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12px;
+  gap: 10px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #666;
+}
+
+.hero {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.contenido {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #d9a46c;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #0000001a;
+}
+
+.contenido h2, .contenido h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.contenido p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+img{ 
+  text-align: right;
+  font-size: medium;
+  size: 234px;
+}
